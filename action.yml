@@ -1,5 +1,5 @@
-name: Docker Action
-description:  Template Docker action
+name: Branch Name
+description: Branch Name
 author: tj-actions
 inputs:
   token:
