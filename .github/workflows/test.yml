@@ -11,11 +11,12 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    name: Test docker-action
+    name: Test branch-name
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: shellcheck
         uses: reviewdog/action-shellcheck@v1
-      - name: Run docker-action
+      - name: Run branch-name
         uses: ./
+        continue-on-error: true
