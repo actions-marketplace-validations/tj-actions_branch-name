@@ -2,6 +2,6 @@
 
 set -e
 
-echo "::error:Invalid repository name use tj-actions/branch-names instead."
+echo "::error::Invalid repository name use tj-actions/branch-names instead."
 
 exit 1
